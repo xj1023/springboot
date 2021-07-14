@@ -28,6 +28,7 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 public class DubboAdminApplication {
 
 	public static void main(String[] args) {
+		System.out.println("test");
 		SpringApplication.run(DubboAdminApplication.class, args);
 	}
 }
